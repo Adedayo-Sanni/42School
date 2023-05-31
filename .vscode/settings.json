@@ -1,0 +1,9 @@
+{
+    "emmet.triggerExpansionOnTab": false,
+    "terminal.integrated.tabStopWidth": 4,
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
+    "editor.minimap.enabled": false,
+    "editor.insertSpaces" : false,
+    "editor.tabSize": 4
+}
