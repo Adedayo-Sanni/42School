@@ -6,13 +6,13 @@
 /*   By: asanni <asanni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/30 12:29:10 by asanni            #+#    #+#             */
-/*   Updated: 2023/06/04 10:27:11 by asanni           ###   ########.fr       */
+/*   Updated: 2023/06/04 18:04:36 by asanni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
 	char	c;
 

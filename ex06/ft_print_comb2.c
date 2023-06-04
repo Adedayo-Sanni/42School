@@ -6,7 +6,7 @@
 /*   By: asanni <asanni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 12:22:57 by asanni            #+#    #+#             */
-/*   Updated: 2023/06/04 10:34:06 by asanni           ###   ########.fr       */
+/*   Updated: 2023/06/04 18:14:11 by asanni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ void	ft_print_col(int colprinc)
 	}
 	else if (colprinc <= 99)
 	{
-		dois = colprinc + 48;
 		um = (colprinc % 10) + 48;
 		dois = (colprinc / 10) + 48;
 		write(1, &dois, 1);
@@ -58,10 +57,4 @@ void	ft_print_comb2(void)
 		}
 		col1++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb2();
-	return (0);
 }
