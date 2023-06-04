@@ -6,7 +6,7 @@
 /*   By: asanni <asanni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 10:19:45 by asanni            #+#    #+#             */
-/*   Updated: 2023/06/03 18:27:35 by asanni           ###   ########.fr       */
+/*   Updated: 2023/06/04 10:30:28 by asanni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,3 @@ void	ft_print_comb(void)
 		centena++;
 	}
 }
-
-/*int	main (void)
-{
-	ft_print_comb();
-	return (0);
-} 
-*/
