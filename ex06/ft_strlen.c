@@ -6,11 +6,9 @@
 /*   By: asanni <asanni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 12:41:53 by asanni            #+#    #+#             */
-/*   Updated: 2023/06/07 21:11:56 by asanni           ###   ########.fr       */
+/*   Updated: 2023/06/07 21:19:48 by asanni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_strlen(char *str)
 {
@@ -21,6 +19,8 @@ int	ft_strlen(char *str)
 		add++;
 	return (add + 48);
 }
+
+// #include <unistd.h>
 
 // int	main(void)
 // {
